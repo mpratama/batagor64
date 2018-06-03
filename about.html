@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Batagor64</title>
+    <link rel="stylesheet" href="./jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="./jquerymobile.min.js"></script>
+</head>
+<body>
+	
+<div data-role="header" style="overflow:hidden;">
+<h1>Batagor64</h1>
+    <div data-role="navbar">
+        <ul>
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div><!-- /header -->
+
+<div role="main" class="ui-content">
+
+<h3>Fungsi App</h3>
+<p style="text-align: justify">Pada dasarnya app ini mempunyai 2 fungsi yaitu:
+    <ol>
+    <li>Encode : Konversi file digital apapun kedalam bentuk teks menggunakan algoritma Base64.</li>
+    <li>Decode : Konversi teks berformat Base64 ke bentuk filenya yang semula (gambar, dokumen, audio, video, dll).</li></ol></p>
+
+<h3>Latar Belakang</h3>
+    <p style="text-align:justify">Aplikasi ini ditulis berdasarkan pengalaman pembuat melaksanakan tugas negara di wilayah DTPK dimana pembangunan sarana komunikasi telekomunikasi dan transportasi belum mendapat porsi yang sama seperti di kota. Tiadanya jaringan internet menghambat komunikasi 2 arah dan berakibat menghambat kinerja. Adanya App ini bisa sedikit membantu menyelesaikan permasalahan tersebut. App ini bisa digunakan minimal jika masih ada layanan sms di wilayah DTPK. Dengan cara pengirim file mengkonversi (encoding) file digital (foto, file word, file excel, pdf, dll) kedalam bentuk Base64 teks lalu dikirim melalui sms. Penerima sms lalu mengkonversi kembali (decoding) Base64 teks ke bentuk file semula.</p>
+    
+<h3>Pros & Cons</h3>
+    <p style="text-align: justify">Pros:
+    <ul><li>Mengirim dan menerima file digital melalui jaringan sms.</li>
+    <li>Telah diuji (bukan di IPB & ITB) mengirim bermacam tipe file (gambar: jpeg, png, gif; dokumen: word, excel, pdf; program: java program. Secara teori dapat mengirim format file apapun.</li></ul></p>
+    
+    <p style="text-align: justify">Cons:
+    <ul><li>Konversi file ke Base64 teks menghasilkan deretan karakter yang cukup panjang. Membutuhkan sms yang banyak untuk satu kali pengiriman file. Hasil percobaan mengirim file excel berukuran kurang lebih 20KB membutuhkan sekitar 60 sms.</li></ul></p>
+
+<h3>Tentang App</h3>
+    <p style="text-align: justify">Ditulis oleh <a href="https://www.github.com/mpratama">Pratama</a>, 2018. Keseluruhan kode program ditulis dalam Javascript. UI menggunakan <a href="http://www.jquerymobile.com">jquerymobile</a>.</p>
+</div>
+
+	
+<div data-role="footer" style="overflow:hidden;">
+    <h4 style="text-align:center;"><small><div id="tahun"></div></small></h4>
+    </div>
+  
+<script type="text/javascript" src="apps.js"></script>
+  
+</body>
+</html>

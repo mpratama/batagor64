@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Batagor64</title>
+    <link rel="stylesheet" href="./jquery.mobile-1.4.5.min.css" />
+    <script type="text/javascript" src="./jquerymobile.min.js"></script>
+</head>
+<body>
+	
+<div data-role="header" style="overflow:hidden;">
+<h1>Batagor64</h1>
+    <div data-role="navbar">
+        <ul>
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div><!-- /navbar -->
+</div><!-- /header -->
+
+<div role="main" class="ui-content">
+    
+<h2>Converter file ke base64teks</h2>
+    <p>Gunakan form ini untuk mengubah bermacam jenis file ke bentuk teks format base64.</p>
+    <input id="filemu" type="file" />
+    <button id="tombol_encode" class="ui-button">Convert ke teks</button>
+    <br>
+    <h2>Converter base64teks ke file</h2>
+    <form>
+        <label for="textarea-1">Paste base64teks dibawah sini.</label>
+        <textarea name="textarea-1" id="teksmu" ></textarea>
+        <button class="ui-button" id="tombol_decode" onclick="prosesFile()">Convert ke file</button>
+    </form>
+    </div>
+
+	
+<div data-role="footer" style="overflow:hidden;">
+    <h4 style="text-align:center;"><small><div id="tahun"></div></small></h4>
+    </div>
+  
+<script type="text/javascript" src="apps.js"></script>
+  
+</body>
+</html>
