@@ -11,8 +11,8 @@ Javascript based file encoder and decoder.
 # Screenshot
 <img src="https://github.com/mpratama/batagor64/blob/master/screenshot.jpg" alt="Tampilan App" width="400" height="600">
 
-# Licenses
+# Lisensi
 Baca [LICENSE.md](https://github.com/mpratama/batagor64/blob/master/LICENSE.md)
 
-# About
-Written entirely in Javascript. UI using jquerymobile.
+# Tentang App
+Keseluruhan kode ditulis dalam Javascript. User Interface menggunakan Jquerymobile.
