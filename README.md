@@ -9,7 +9,7 @@ Javascript based file encoder and decoder.
 5. Buka file index.html menggunakan Firefox
 
 # Screenshot
-![Screenshot Batagor64](https://github.com/mpratama/batagor64/blob/master/screenshot.jpg "Screenshot")
+<img src="https://github.com/mpratama/batagor64/blob/master/screenshot.jpg" alt="Tampilan App" width="400" height="600">
 
 # Licenses
 Baca [LICENSE.md](https://github.com/mpratama/batagor64/blob/master/LICENSE.md)
