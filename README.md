@@ -1,4 +1,4 @@
-# batagor64
+# Batagor64 (Binary and Text Generator 64)
 Javascript based file encoder and decoder.
 
 # Penggunaan
